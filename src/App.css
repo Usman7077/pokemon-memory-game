@@ -1,0 +1,35 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(238, 255, 0);
+  padding: 1vw;
+  background-color: rgba(114, 69, 10, 0.63);
+  border-radius: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw 10vw 0vw 10vw;
+}
+.card{
+  font-family: monospace;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  /* border: 10px solid rgb(41, 63, 41); */
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImg{
+  width: 100%;
+  display: flex;
+
+}
