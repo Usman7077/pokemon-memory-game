@@ -1,11 +1,11 @@
-const Header = ({scoreLength, highScoreq}) => {
+const Header = ({scoreLength, highScore}) => {
     return (
         <>
             <div className="header">
-                <h1>Pokemon Memory Game</h1>
+                <h1><i>Pokemon Memory Game</i></h1>
                 <div>
                     <h2>Score: {scoreLength}</h2>
-                    <h2>High Score: {highScoreq}</h2>
+                    <h2>High Score: {highScore}</h2>
                 </div>
             </div>
         </>
